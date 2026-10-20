@@ -1,0 +1,265 @@
+<html>
+    <head>
+        <!--Mengatur judul halaman yang muncul-->
+        <title>Jumlah Penduduk Kabupaten Sleman Berdasarkan Kecamatan dan Jenis Kelamin Tahun 2026</title>
+    </title>
+    <!--Mengatur tampilan browser menggunakan CSS-->
+    <style>
+        /* Mengatur tampilan dasar halaman */
+        body {
+            margin: 20px auto;
+            width: 900px;
+            font-family: Arial, Helvetica;
+            background-color: white;
+        }
+         .header {
+            background-color: #e8a0b8;
+            text-align: center;
+            padding: 25px 20px;
+        }
+        /* Mengatur tampilan footer */
+        .footer {
+            background-color: #e8a0b8;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Mengatur ukuran logo BPS */
+        .logo-bps {
+            width: 70px;
+            height: auto;
+        }
+        /* Mengatur bagian login di kanan atas */
+        .login {
+            position: absolute;
+            top: 25px;
+            right: 80px;
+            font-weight: bold;
+        }
+        /* mengatur tampilan logo */
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        h1 {
+            color: white;
+        }
+
+       /* Mengatur tampilan tabel */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            overflow-x: auto;
+        }
+
+        /* Mengatur ukuran dan garis tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Mengatur judul kolom */
+        th {
+            background-color: #f48fb1;
+            color: white;
+            padding: 12px;
+            border: 1px solid #e8a0b8;
+        }
+
+        /* Mengatur isi tabel */
+        td {
+            padding: 10px;
+            border: 1px solid #e8a0b8;
+            text-align: center;
+        }
+
+        /* Warna selang-seling agar mudah dibaca */
+        tbody tr:nth-child(even) {
+            background-color: #fce4ec;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: white;
+        }
+    </style>
+</head>
+<!-- menampilkan hedaer berdasarkan aturan yang sudah dibuat diatas-->
+<body>
+    <div class="header">
+
+    <div class="login">
+        <a href="login.html">Login</a>
+    </div>
+
+    <div class="header">
+        <img src="sleman1.jpg">
+
+        <h1>
+            Jumlah Penduduk Berdasarkan Kecamatan dan Jenis Kelamin
+            di Kabupaten Sleman Tahun 2026
+        </h1>
+    </div>
+</body>
+</html>
+
+<!-- Bagian utama untuk menampilkan tabel statistik -->
+
+    <table>
+        <!-- Judul kolom tabel -->
+        <thead>
+            <tr>
+                <th>Kecamatan</th>
+                <th>Laki-laki</th>
+                <th>Perempuan</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <!-- Isi data tabel berdasarkan kecamatan yang berisi data jumlah laki-laki, perempuan, dan total jumlah keduanya -->
+        <tbody>
+            <tr>
+                <td>Moyudan</td>
+                <td>17.284</td>
+                <td>17.845</td>
+                <td>35.129</td>
+            </tr>
+            <tr>
+                <td>Minggir</td>
+                <td>16.337</td>
+                <td>17.271</td>
+                <td>33.608</td>
+            </tr>
+            <tr>
+                <td>Seyegan</td>
+                <td>27.128</td>
+                <td>27.807</td>
+                <td>54.935</td>
+            </tr>
+            <tr>
+                <td>Godean</td>
+                <td>37.549</td>
+                <td>38.044</td>
+                <td>75.593</td>
+            </tr>
+            <tr>
+            <td>Gamping</td>
+            <td>53.564</td>
+            <td>55.807</td>
+            <td>109.371</td>
+        </tr>
+
+        <tr>
+            <td>Mlati</td>
+            <td>53.668</td>
+            <td>54.953</td>
+            <td>108.621</td>
+        </tr>
+
+        <tr>
+            <td>Depok</td>
+            <td>69.875</td>
+            <td>70.401</td>
+            <td>140.276</td>
+        </tr>
+
+        <tr>
+            <td>Berbah</td>
+            <td>31.803</td>
+            <td>32.390</td>
+            <td>64.193</td>
+        </tr>
+
+        <tr>
+            <td>Prambanan</td>
+            <td>27.908</td>
+            <td>28.919</td>
+            <td>56.827</td>
+        </tr>
+
+        <tr>
+            <td>Kalasan</td>
+            <td>45.528</td>
+            <td>46.542</td>
+            <td>92.070</td>
+        </tr>
+
+        <tr>
+            <td>Ngemplak</td>
+            <td>36.090</td>
+            <td>36.726</td>
+            <td>72.816</td>
+        </tr>
+
+        <tr>
+            <td>Ngaglik</td>
+            <td>56.514</td>
+            <td>57.564</td>
+            <td>114.078</td>
+        </tr>
+
+        <tr>
+            <td>Sleman</td>
+            <td>38.488</td>
+            <td>38.972</td>
+            <td>77.460</td>
+        </tr>
+
+        <tr>
+            <td>Tempel</td>
+            <td>27.548</td>
+            <td>28.242</td>
+            <td>55.790</td>
+        </tr>
+
+        <tr>
+            <td>Turi</td>
+            <td>19.091</td>
+            <td>19.343</td>
+            <td>38.434</td>
+        </tr>
+
+        <tr>
+            <td>Pakem</td>
+            <td>18.840</td>
+            <td>19.717</td>
+            <td>38.557</td>
+        </tr>
+
+        <tr>
+            <td>Cangkringan</td>
+            <td>16.082</td>
+            <td>16.634</td>
+            <td>32.716</td>
+        </tr>
+
+        <!-- Baris total seluruh Kabupaten Sleman -->
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>593.297</strong></td>
+            <td><strong>607.177</strong></td>
+            <td><strong>1.200.474</strong></td>
+        </tr>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <!-- Logo BPS -->
+        <img src="logo bps.png" alt="Logo BPS" class="logo-bps">
+
+        <!-- Nama instansi -->
+        <h3>BADAN PUSAT STATISTIK</h3>
+        <h4>KABUPATEN SLEMAN</h4>
+
+        <!-- Alamat instansi -->
+        <p> Jl. Purbaya Tundan Sumberadi Mlati Sleman</p>
+
+    </footer>
+
